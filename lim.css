@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+#home {
+    height: 125vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#home2 {
+	height: 75vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#home3 {
+	height: 75vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#home4 {
+	height: 75vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#home5 {
+	height: 125vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#gamea {
+	height: 25vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+.posts-thumbnails img{
+width:100px;
+height:100px;
+margin:10px;
+}
+
+.container {
+  position: relative;
+  width: fixed;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #990000;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 1.5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 17px;
+  font-family: courier;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#about {
+	height: 165vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	font-family: courier;
+	margin-left: 100px;
+	margin-right: 100px;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#contact {
+	height: 125vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	font-family: courier;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+#home .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#home h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#mean {
+	font-family: courier;
+	font-size: 16pt;
+	margin-left: 50px;
+	margin-right: 250px;
+	text-align: left;
+}
+
+#mean2 {
+	font-family: courier;
+	font-size: 16pt;
+	margin-left: 250px;
+	margin-right: 50px;
+	text-align: left;
+}
+
+#mean3 {
+	font-family: courier;
+	font-size: 16pt;
+	margin-left: 50px;
+	margin-right: 250px;
+	text-align: left;
+}
+
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/vectors/seamless-pattern-capybaras-in-the-water-vector-graphics-vector-id1409817233?k=20&m=1409817233&s=612x612&w=0&h=rDmlQ-mcVf5prmnSSxtAzKEDFQyLugHwA5yQZd3SVkM=');
+}
+
+#home2 {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://c4.wallpaperflare.com/wallpaper/24/23/796/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg');
+}
+
+#home3 {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://wallup.net/wp-content/uploads/2018/03/19/580132-portrait_display-vertical-pattern-digital_art-748x1330.jpg');
+}
+
+#home4 {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://wallup.net/wp-content/uploads/2018/03/19/580137-portrait_display-vertical-pattern-digital_art-748x1330.jpg')
+}
+
+#home5 {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/id/1409786265/vector/seamless-pattern-with-cute-capybaras-vector-graphics.jpg?s=612x612&w=0&k=20&c=1LrcF9SqB-wj9Zu3fzIquLnjYjQEgXbPaqyps0f9E1U=')
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.freepik.com/premium-vector/set-cute-capybaras-isolated-white-background-vector-graphics_250613-1596.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://pbs.twimg.com/media/Elzz_LnU4AEeJ6O?format=jpg&name=4096x4096');
+}
+
+#gamea {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.xtrafondos.com/wallpapers/vertical/arte-de-picos-poligonales-neon-3d-3577.jpg')
+}
+
+#foot {
+	background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media.istockphoto.com/id/171375720/photo/background-in-impressionism-style-with-many-colors.jpg?b=1&s=170667a&w=0&k=20&c=uGp6tizyiLHXa1D53qBLVepqU6qb1Hul_u3ERh_iOQE=');
+}
